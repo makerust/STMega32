@@ -837,7 +837,7 @@ U 1 1 607AFF78
 P 8850 5050
 F 0 "TP2" H 8908 5168 50  0000 L CNN
 F 1 "TestPoint" H 8900 5250 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9050 5050 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 9050 5050 50  0001 C CNN
 F 3 "~" H 9050 5050 50  0001 C CNN
 	1    8850 5050
 	1    0    0    -1  
@@ -851,7 +851,7 @@ U 1 1 607B0FB7
 P 7650 5050
 F 0 "TP1" H 7450 5200 50  0000 L CNN
 F 1 "TestPoint" H 7500 5300 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7850 5050 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 7850 5050 50  0001 C CNN
 F 3 "~" H 7850 5050 50  0001 C CNN
 	1    7650 5050
 	1    0    0    -1  
@@ -865,7 +865,7 @@ U 1 1 607B1547
 P 8800 5650
 F 0 "TP3" H 8750 5700 50  0000 R CNN
 F 1 "TestPoint" H 8750 5800 50  0000 R CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9000 5650 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 9000 5650 50  0001 C CNN
 F 3 "~" H 9000 5650 50  0001 C CNN
 	1    8800 5650
 	-1   0    0    1   
