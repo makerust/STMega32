@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name STMega32Library)(type KiCad)(uri C:/Users/thomas.rust/Documents/KiCADProjects/STMega32/Footprints/STMega32Library.pretty)(options "")(descr ""))
+)
