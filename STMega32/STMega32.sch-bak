@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L MCU_ST_STM32F3:STM32F303R6Tx U1
-U 1 1 6072E398
-P 2350 3050
-F 0 "U1" H 2350 1161 50  0000 C CNN
-F 1 "STM32F303R6Tx" H 2350 1070 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 1750 1350 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00092070.pdf" H 2350 3050 50  0001 C CNN
-	1    2350 3050
-	1    0    0    -1  
-$EndComp
 Text GLabel 3800 2650 2    50   Input ~ 0
 USB_P
 Text GLabel 3800 2550 2    50   Input ~ 0
@@ -32,14 +21,6 @@ Wire Wire Line
 	3050 2550 3800 2550
 Wire Wire Line
 	3800 2650 3050 2650
-Text GLabel 1000 2750 0    50   Input ~ 0
-OSC_IN_1
-Text GLabel 1000 2650 0    50   Input ~ 0
-OSC_IN_2
-Wire Wire Line
-	1000 2750 1650 2750
-Wire Wire Line
-	1650 2650 1000 2650
 Text GLabel 7450 1800 0    50   Input ~ 0
 col1
 Text GLabel 7450 1900 0    50   Input ~ 0
@@ -282,7 +263,7 @@ Wire Wire Line
 	7550 5350 7550 5050
 Connection ~ 7550 5050
 Wire Wire Line
-	7550 5050 7650 5050
+	7550 5050 7850 5050
 Wire Wire Line
 	7900 5350 7900 5150
 Connection ~ 7900 5150
@@ -301,7 +282,7 @@ Wire Wire Line
 	8650 5550 8650 5650
 Connection ~ 8650 5650
 Wire Wire Line
-	8650 5650 8800 5650
+	8650 5650 9000 5650
 Wire Wire Line
 	7900 5550 7900 5650
 Connection ~ 7900 5650
@@ -309,7 +290,7 @@ Wire Wire Line
 	9000 5350 9000 5050
 Connection ~ 9000 5050
 Wire Wire Line
-	9000 5050 8850 5050
+	9000 5050 8550 5050
 Wire Wire Line
 	8550 5150 8650 5150
 Wire Wire Line
@@ -565,12 +546,6 @@ Text Notes 7500 1500 0    50   ~ 0
 SMD Headers on backside to simulate socket
 Wire Wire Line
 	3050 4050 3300 4050
-Text GLabel 3650 3550 2    50   Input ~ 0
-NJTRST
-Text GLabel 3650 3450 2    50   Input ~ 0
-SWO
-Text GLabel 3700 2950 2    50   Input ~ 0
-JTDI
 Text GLabel 3700 2850 2    50   Input ~ 0
 SWCLK
 Text GLabel 3700 2750 2    50   Input ~ 0
@@ -579,36 +554,18 @@ Wire Wire Line
 	3050 2750 3700 2750
 Wire Wire Line
 	3700 2850 3050 2850
-Wire Wire Line
-	3050 2950 3700 2950
-Wire Wire Line
-	3650 3450 3050 3450
-Wire Wire Line
-	3050 3550 3650 3550
 Text GLabel 5550 1400 2    50   Input ~ 0
 MOSI
-Text GLabel 5550 1600 2    50   Input ~ 0
-MISO
 Text GLabel 5550 1500 2    50   Input ~ 0
 SCK
 Text GLabel 5250 1400 0    50   Input ~ 0
 SWDIO
 Text GLabel 5250 1500 0    50   Input ~ 0
 SWCLK
-Text GLabel 5250 1600 0    50   Input ~ 0
-SWO
-Text GLabel 5250 1700 0    50   Input ~ 0
-NJTRST
-Text GLabel 5550 1700 2    50   Input ~ 0
-Reset
 Wire Wire Line
 	5250 1400 5550 1400
 Wire Wire Line
 	5550 1500 5250 1500
-Wire Wire Line
-	5250 1600 5550 1600
-Wire Wire Line
-	5550 1700 5250 1700
 Wire Wire Line
 	1300 4350 1650 4350
 Wire Wire Line
@@ -832,45 +789,14 @@ Connection ~ 1500 4550
 Wire Wire Line
 	1500 4550 1500 4450
 $Comp
-L Connector:TestPoint TP2
-U 1 1 607AFF78
-P 8850 5050
-F 0 "TP2" H 8908 5168 50  0000 L CNN
-F 1 "TestPoint" H 8900 5250 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 9050 5050 50  0001 C CNN
-F 3 "~" H 9050 5050 50  0001 C CNN
-	1    8850 5050
+L MCU_ST_STM32F0:STM32F072RBTx U1
+U 1 1 608A50E7
+P 2350 3050
+F 0 "U1" H 2350 1161 50  0000 C CNN
+F 1 "STM32F072RBTx" H 2350 1070 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 1750 1350 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf" H 2350 3050 50  0001 C CNN
+	1    2350 3050
 	1    0    0    -1  
 $EndComp
-Connection ~ 8850 5050
-Wire Wire Line
-	8850 5050 8550 5050
-$Comp
-L Connector:TestPoint TP1
-U 1 1 607B0FB7
-P 7650 5050
-F 0 "TP1" H 7450 5200 50  0000 L CNN
-F 1 "TestPoint" H 7500 5300 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 7850 5050 50  0001 C CNN
-F 3 "~" H 7850 5050 50  0001 C CNN
-	1    7650 5050
-	1    0    0    -1  
-$EndComp
-Connection ~ 7650 5050
-Wire Wire Line
-	7650 5050 7850 5050
-$Comp
-L Connector:TestPoint TP3
-U 1 1 607B1547
-P 8800 5650
-F 0 "TP3" H 8750 5700 50  0000 R CNN
-F 1 "TestPoint" H 8750 5800 50  0000 R CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 9000 5650 50  0001 C CNN
-F 3 "~" H 9000 5650 50  0001 C CNN
-	1    8800 5650
-	-1   0    0    1   
-$EndComp
-Connection ~ 8800 5650
-Wire Wire Line
-	8800 5650 9000 5650
 $EndSCHEMATC
