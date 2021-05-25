@@ -1,0 +1,10 @@
+Line Item,Designator,Package,Quantity,Designation,Manufacturer,Part Number,Note
+1,"J1,J2",Header_20Pin_90DegTHT_asSMD,2,Conn_01x20,Mill-Max Manufacturing Corp.,399-10-120-10-009000,May be cheaper to buy version with more pins such as 399-10-120-10-009000 and cut to length
+2,"C1,C4",C_0603_1608Metric,2,1uF,Samsung Electro-Mechanics,CL10A105KA8NNNC,
+3,"C2,C3",C_0603_1608Metric,2,10nF,AVX Corporation,06033C153JAT2A,
+4,Q1,SOT-323_SC-70,1,2SC4213,Toshiba Semiconductor and Storage,2SC4213BTE85LF,
+5,"R1,R2",R_0603_1608Metric,2,4k,Stackpole Electronics,RMCF0603FT4K70 ,
+6,U2,SOT-23-5,1,LD3985M33R_SOT23,STMicroelectronics,LD3985M33R,
+7,"Power,Caps Lock",LED_0603_1608Metric,2,LED_ALT,Würth Elektronik,150060VS75000,
+8,"R3,R4",R_0603_1608Metric,2,560,TE Connectivity,CRGCQ0603F560R,
+9,U1,LQFP-64_10x10mm_P0.5mm,1,STM32F072RBTx,STMicroelectronics,STM32F072RBT6TR,
