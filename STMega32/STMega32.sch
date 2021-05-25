@@ -391,18 +391,14 @@ Wire Wire Line
 $Comp
 L Device:R_Small R2
 U 1 1 60743A10
-P 5550 3650
-F 0 "R2" V 5354 3650 50  0000 C CNN
-F 1 "4k" V 5445 3650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5550 3650 50  0001 C CNN
-F 3 "~" H 5550 3650 50  0001 C CNN
-	1    5550 3650
-	0    1    1    0   
+P 5550 3450
+F 0 "R2" V 5354 3450 50  0000 C CNN
+F 1 "4k" V 5445 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5550 3450 50  0001 C CNN
+F 3 "~" H 5550 3450 50  0001 C CNN
+	1    5550 3450
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5400 3650 5450 3650
-Wire Wire Line
-	5650 3650 5700 3650
 Text GLabel 5100 3900 3    50   Input ~ 0
 GND
 Wire Wire Line
@@ -808,4 +804,15 @@ Wire Wire Line
 Wire Wire Line
 	3250 3450 3250 3350
 Connection ~ 3250 3350
+Text GLabel 5550 3000 0    50   Input ~ 0
++3_3v
+Wire Wire Line
+	5550 3000 5550 3350
+Wire Wire Line
+	5400 3650 5550 3650
+Wire Wire Line
+	5550 3550 5550 3650
+Connection ~ 5550 3650
+Wire Wire Line
+	5550 3650 5700 3650
 $EndSCHEMATC
